@@ -1,4 +1,4 @@
-import GeneratorApp from "./components/generatorApp";
+import GeneratorApp from "./components/GeneratorApp"
 
 function App() {
 
