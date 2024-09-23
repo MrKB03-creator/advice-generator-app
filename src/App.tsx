@@ -1,10 +1,11 @@
+import GeneratorApp from "./components/generatorApp"
 
 function App() {
 
   return (
     <>
-      <div className="bg-black text-white">
-        jhfuiwu
+      <div className="bg-DarkBlue h-[100vh] w-auto flex justify-center items-center">
+        <GeneratorApp />
       </div>
     </>
   )
