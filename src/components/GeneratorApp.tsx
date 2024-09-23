@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { PatternDividerDesktop, iconDice } from "../assets/images";
 
-const generatorApp = () => {
+const GeneratorApp = () => {
   const [count, setCount] = useState(1);
   const [advice, setAdvice] = useState("");
   const [loading, setLoading] = useState(true);
@@ -51,4 +51,4 @@ const generatorApp = () => {
   );
 };
 
-export default generatorApp;
+export default GeneratorApp;
